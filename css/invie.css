@@ -205,9 +205,19 @@ textarea{
 input:focus,textarea:focus{
     background: lightgray;
 }
+.video-demo{
+    max-width: 500px;
+    width: 100%;
+   /*  margin: 0 auto 80px; */
+    border: 5px solid #3c5b6e;
 
-
-/*  */
+}
+.video-demo-contenedor{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+/* movil */
 
 .burguer-button{
     width: 40px;
@@ -217,12 +227,13 @@ input:focus,textarea:focus{
     background: #395667;
     display: inline-block;
     text-align: center;
-    position: absolute;
+    position: fixed;
     left: 20px;
     top: 20px;
     cursor: pointer;
     z-index: 3;
     color: #FFF;
+    display: none;
 }
 .video-responsive-contenedor{
     position: relative;

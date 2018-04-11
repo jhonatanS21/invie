@@ -111,17 +111,30 @@
         padding: 0;
 
     }
+    .video-demo{
+        margin: 0 10px;
+    }
 
 }
 
 @media screen and (max-width:500px) {
 
+    .portada .button{
+        display: block;
+    }
+    .formulario
+    .precios .header .logotipo{
+        margin: 50px 0;
+    }
+    .burguer-button{
+        display: block;
+    }
     .portada .contenedor{
         position: static;
     }
     .menu{
         background: rgb(255, 60, 88, .8);
-        position: absolute;
+        position: fixed;
         left: -100%;
         top: 0;
         z-index: 2;
@@ -171,5 +184,8 @@
     }
     .header .contenedor{
         position: static;
+    }
+    .video-demo{
+        margin: 0 10px;
     }
 }
